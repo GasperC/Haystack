@@ -8,7 +8,37 @@
 typedef enum : NSUInteger
 {
     UIDeviceJailbreakStatusNotJailbroken,               // All tests passed
-    UIDeviceJailbreakStatusPathExists,                  // Various paths exist
+    UIDeviceJailbreakStatusPathExists,                                          // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsCydiaApp,                      // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsBlackra1nApp,                  // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsFakeCarrierApp,                // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsIcyApp,                        // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsIntelliScreenApp,              // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsMxTubeApp,                     // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsRockAppApp,                    // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsSBSettingsApp,                 // Various paths exist
+    UIDeviceJailbreakStatusPathExistsApplicationsWinterBoardApp,                // Various paths exist
+    UIDeviceJailbreakStatusPathExistsPrivateVarLibApt,                          // Various paths exist
+    UIDeviceJailbreakStatusPathExistsPrivateVarLibCydia,                        // Various paths exist
+    UIDeviceJailbreakStatusPathExistsPrivateVarMobileLibrarySBSettingsThemes,   // Various paths exist
+    UIDeviceJailbreakStatusPathExistsPrivateVarTmpCydiaLog,                     // Various paths exist
+    UIDeviceJailbreakStatusPathExistsPrivateVarStash,                           // Various paths exist
+    UIDeviceJailbreakStatusPathExistsUsrLibexecCydia,                           // Various paths exist
+    UIDeviceJailbreakStatusPathExistsUsrBinsshd,                                // Various paths exist
+    UIDeviceJailbreakStatusPathExistsUsrSbinsshd,                               // Various paths exist
+    UIDeviceJailbreakStatusPathExistsUsrLibexecSftpServer,                      // Various paths exist
+    UIDeviceJailbreakStatusPathExistsSystemLibraryLaunchDeamonsIkeyBbotPlist,   // Various paths exist
+    UIDeviceJailbreakStatusPathExistsSystemLibraryLaunchDeamonsSaurikCydiaPlist,// Various paths exist
+    UIDeviceJailbreakStatusPathExistsLibraryMobileSubstrate,                    // Various paths exist
+    UIDeviceJailbreakStatusPathExistsVarCacheApt,                               // Various paths exist
+    UIDeviceJailbreakStatusPathExistsVarLibApt,                                 // Various paths exist
+    UIDeviceJailbreakStatusPathExistsVarLibCydia,                               // Various paths exist
+    UIDeviceJailbreakStatusPathExistsVarLogSyslog,                              // Various paths exist
+    UIDeviceJailbreakStatusPathExistsBinBash,                                   // Various paths exist
+    UIDeviceJailbreakStatusPathExistsBinSh,                                     // Various paths exist
+    UIDeviceJailbreakStatusPathExistsEtcApt,                                    // Various paths exist
+    UIDeviceJailbreakStatusPathExistsEtcSshSshdConfig,                          // Various paths exist
+    UIDeviceJailbreakStatusPathExistsUsrLibexecSshKeysign,                      // Various paths exist
     UIDeviceJailbreakStatusCydia,                       // Cydia can be opened with URL scheme
     UIDeviceJailbreakStatusSandboxWrite,                // Can fork the process
     UIDeviceJailbreakStatusSymbolicLinkVerification,    // Symbolic links exist to applications
