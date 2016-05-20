@@ -81,6 +81,7 @@
         return UIDeviceJailbreakStatusPathExistsApplicationsBlackra1nApp;
     }
     
+<<<<<<< HEAD
     if ([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"/%@%@%@%@%@%@%@", @"App", @"lic",@"ati", @"ons/", @"Fake", @"Carrier.a", @"pp"]])
     {
         return UIDeviceJailbreakStatusPathExistsApplicationsFakeCarrierApp;
@@ -90,17 +91,24 @@
     {
         return UIDeviceJailbreakStatusPathExistsApplicationsIcyApp;
     }
+=======
+    /*
+    //
+    // For check
+    //
+    int pid = fork();
+>>>>>>> 9a8416aa8baf8d562d02cd859aa2240b5e6157d6
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"/%@%@%@%@%@%@%@", @"App", @"lic",@"ati", @"ons/", @"Inte", @"lliScreen.a", @"pp"]])
     {
         return UIDeviceJailbreakStatusPathExistsApplicationsIntelliScreenApp;
     }
-    */
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"/%@%@%@%@%@%@%@", @"App", @"lic",@"ati", @"ons/", @"MxT", @"ube.a", @"pp"]])
     {
         return UIDeviceJailbreakStatusPathExistsApplicationsMxTubeApp;
     }
+    */
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"/%@%@%@%@%@%@%@", @"App", @"lic",@"ati", @"ons/", @"Roc", @"kApp.a", @"pp"]])
     {
