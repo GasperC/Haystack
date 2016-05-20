@@ -95,7 +95,6 @@
     {
         return UIDeviceJailbreakStatusPathExistsApplicationsIntelliScreenApp;
     }
-    */
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithFormat:@"/%@%@%@%@%@%@%@", @"App", @"lic",@"ati", @"ons/", @"MxT", @"ube.a", @"pp"]])
     {
